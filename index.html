@@ -1,184 +1,511 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nikhil Chaganti Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">  
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Chaganti | Software Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>Nikhil Chaganti</h1>
-      <p>Data Analyst | Machine Learning Enthusiast | Data Visualization Expert</p>
-      <img src="portfolio_img.jpeg" alt="Nikhil Chaganti" class="profile-image">
-<!-- Add Image Here -->
-      <li><a href="resume.pdf" target="_blank" download>Download Resume</a></li>
-    </div>
-  </header>
+    <header>
+        <div class="container">
+            <nav id="navbar">
+                <div class="logo">NC</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-  
-    <!-- Add Subcategory Blocks -->
-    <div class="subcategories">
-      <a href="#about" class="block">About Me</a>
-      <a href="#skills" class="block">Skills</a>
-      <a href="#experience" class="block">Professional Experience</a>
-      <a href="#education" class="block">Education</a>
-      <a href="#certifications" class="block">Certifications</a>
-      <a href="#projects" class="block">Projects</a>
-      <a href="#contact" class="block">Contact</a>
-    </div>
-  </div>
-  
-  <section id="about" class="section">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        Results-driven Software Engineer with hands-on experience in full-stack development, API design, and database optimization. Proven expertise in ReactJS, SQL, and microservices architecture, driving performance improvements and system reliability. Adept at building scalable RESTful web services, implementing microservice design patterns, and optimizing SQL queries, resulting in enhanced efficiency and reduced response times. Strong background in data security, ETL, and AI-driven analytics, with experience in investment banking projects and cybersecurity analysis. 
-      </p>
-    </div>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>
+                    <span class="animated-text">N</span>
+                    <span class="animated-text">i</span>
+                    <span class="animated-text">k</span>
+                    <span class="animated-text">h</span>
+                    <span class="animated-text">i</span>
+                    <span class="animated-text">l</span>
+                    <span class="animated-text space">&nbsp;</span>
+                    <span class="animated-text">C</span>
+                    <span class="animated-text">h</span>
+                    <span class="animated-text">a</span>
+                    <span class="animated-text">g</span>
+                    <span class="animated-text">a</span>
+                    <span class="animated-text">n</span>
+                    <span class="animated-text">t</span>
+                    <span class="animated-text">i</span>
+                </h1>
+                <h2>Software Engineer</h2>
+                <p>Full-Stack Development | API Design | Database Optimization</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#projects" class="btn secondary-btn">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A highly skilled Software Engineer with a strong background in <strong>full-stack development, API design, and database optimization</strong>, delivering scalable and high-performance solutions. Proficient in <strong>ReactJS, SQL, and microservices architecture</strong>, with a track record of improving system reliability and efficiency.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:chagantinikhil22@gmail.com">chagantinikhil22@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+14434533727">+1 443-453-3727</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-globe"></i>
+                            <a href="https://nikhilchaganti.github.io/portfolio/" target="_blank">Portfolio Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                  <img src="portfolio_img.jpeg" alt="Nikhil Chaganti" class="profile-image">
+                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>Jan 2025 - Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>IGATE SOLUTIONS - Frisco, Texas</h4>
+                        <ul>
+                            <li>Engineered and deployed RESTful web services using Spring Boot and Spring MVC, reducing API response times by 60%.</li>
+                            <li>Optimized SQL Database by restructuring queries and indexing tables, reducing query time by 40%.</li>
+                            <li>Implemented comprehensive microservice design patterns, enhancing system reliability.</li>
+                            <li>Architected a responsive ReactJS UI, driving a 30% increase in customer retention rates.</li>
+                            <li>Spearheaded the development of a new RESTful API documented with Swagger.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>Feb 2022 - Oct 2022</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Programmer Analyst</h3>
+                        <h4>COGNIZANT TECHNOLOGY SOLUTIONS - Hyderabad, India</h4>
+                        <h5>JP Morgan Chase</h5>
+                        <ul>
+                            <li>Contributed to data security initiatives for JP Morgan Chase investment banking project.</li>
+                            <li>Completed specialized training in data security and ETL concepts.</li>
+                            <li>Developed expertise in phishing mail detection and cybercrime analysis.</li>
+                            <li>Acquired foundational skills in SQL, ETL processes, and AI & Analytics domains.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-items">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Master of Science in Information Systems</h3>
+                        <h4>University of Maryland, Baltimore County</h4>
+                        <p>CGPA: 3.93/4.0</p>
+                        <p>Jan 2023 - Dec 2024</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Bachelor of Technology in Electronics and Communication Engineering</h3>
+                        <h4>SRKR Engineering College, Andhra Pradesh, India</h4>
+                        <p>CGPA: 8.23/10.0</p>
+                        <p>2018 - 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">C</div>
+                        <div class="skill-item">R</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database Management</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">MySQL</div>
+                        <div class="skill-item">ETL</div>
+                        <div class="skill-item">Data Warehouse</div>
+                        <div class="skill-item">PL/SQL</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">HTML</div>
+                        <div class="skill-item">CSS</div>
+                        <div class="skill-item">React JS</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">Node JS</div>
+                        <div class="skill-item">JSON</div>
+                        <div class="skill-item">JQUERY</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AWS Cloud Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">S3</div>
+                        <div class="skill-item">Redshift</div>
+                        <div class="skill-item">Lambda</div>
+                        <div class="skill-item">Glue</div>
+                        <div class="skill-item">EC2</div>
+                        <div class="skill-item">API</div>
+                        <div class="skill-item">Snowflake</div>
+                        <div class="skill-item">IAM</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Analysis</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Data Mining</div>
+                        <div class="skill-item">Machine Learning</div>
+                        <div class="skill-item">Power BI</div>
+                        <div class="skill-item">Tableau</div>
+                        <div class="skill-item">Weka</div>
+                        <div class="skill-item">NLP Technologies</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">PySpark</div>
+                        <div class="skill-item">SparkSql</div>
+                        <div class="skill-item">Databricks</div>
+                        <div class="skill-item">Hadoop</div>
+                        <div class="skill-item">Sckit-Learn</div>
+                        <div class="skill-item">Apache Spark</div>
+                        <div class="skill-item">Pandas</div>
+                        <div class="skill-item">Tensor Flow</div>
+                        <div class="skill-item">Pytorch</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certifications" class="certifications">
+      <div class="container">
+          <h2 class="section-title">Certifications</h2>
+          <div class="cert-container">
+              <div class="cert-item">
+                  <div class="cert-icon">
+                      <i class="fab fa-aws"></i>
+                  </div>
+                  <div class="cert-details">
+                      <h3>AWS Certified Data Engineer - Associate</h3>
+                  </div>
+              </div>
+              <div class="cert-item">
+                  <div class="cert-icon">
+                      <i class="fab fa-java"></i>
+                  </div>
+                  <div class="cert-details">
+                      <h3>Oracle Database SQL certified - Associate</h3>
+                  </div>
+              </div>
+              <div class="cert-item">
+                  <div class="cert-icon">
+                      <i class="fab fa-python"></i>
+                  </div>
+                  <div class="cert-details">
+                      <h3>Cisco Certified Python - Programming Essentials in Python</h3>
+                  </div>
+              </div>
+              <div class="cert-item">
+                  <div class="cert-icon">
+                      <i class="fas fa-robot"></i>
+                  </div>
+                  <div class="cert-details">
+                      <h3>Certified in Artificial Intelligence Fundamentals by IBM Watson</h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Tweet Categorization using Sentimental Analysis</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>Developed a sentiment-based recommendation system to analyse and categorize 1.6 million tweets. Achieved 85% accuracy in sentiment classification using text analysis and visualization tools. Designed an interactive dashboard for data visualization.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Seaborn</span>
+                            <span class="tech-tag">Plotly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-road"></i>
+                        <h3>Road Accident Predicting System</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>Designed a data-driven system to predict accident-prone areas with 90% model accuracy using a dataset of 145,571 records. Developed a dynamic dashboard using Plotly, Dash, and Jupyter Notebook for interactive visualizations.</p>
+                        <div class="tech-stack">
+                          <span class="tech-tag">Data Mining</span>
+                          <span class="tech-tag">Plotly</span>
+                          <span class="tech-tag">Dash</span>
+                          <span class="tech-tag">Jupyter</span>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="project-card">
+                  <div class="project-header">
+                      <i class="fas fa-shopping-cart"></i>
+                      <h3>Sentiment Analysis of E-Commerce Product Reviews</h3>
+                  </div>
+                  <div class="project-body">
+                      <p>Implemented a Decision Support System to analyse 189,874 product reviews, achieving 88% accuracy in sentiment classification. Utilized TextBlob for sentiment scoring and trained models including Logistic Regression and Random Forest.</p>
+                      <div class="tech-stack">
+                          <span class="tech-tag">TextBlob</span>
+                          <span class="tech-tag">ML</span>
+                          <span class="tech-tag">Weka</span>
+                          <span class="tech-tag">NLP</span>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="project-card">
+                  <div class="project-header">
+                      <i class="fas fa-database"></i>
+                      <h3>Customer Behaviour Analysis with AWS Data Pipeline</h3>
+                  </div>
+                  <div class="project-body">
+                      <p>Developed a data pipeline using AWS services to analyse customer behaviour. Extracted raw transaction data from S3, processed it with AWS Glue, and stored results in Redshift. Reduced report generation time by 30%.</p>
+                      <div class="tech-stack">
+                          <span class="tech-tag">AWS</span>
+                          <span class="tech-tag">S3</span>
+                          <span class="tech-tag">Glue</span>
+                          <span class="tech-tag">Redshift</span>
+                          <span class="tech-tag">Tableau</span>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="project-card">
+                  <div class="project-header">
+                      <i class="fas fa-tasks"></i>
+                      <h3>Todo List using React JS</h3>
+                  </div>
+                  <div class="project-body">
+                      <p>Developed a dynamic To-Do List application using React.js, utilizing useState for state management. Implemented component-based architecture with props. Enhanced UI with FontAwesome icons and utilized UUID for unique task identifiers.</p>
+                      <div class="tech-stack">
+                          <span class="tech-tag">React</span>
+                          <span class="tech-tag">JavaScript</span>
+                          <span class="tech-tag">CSS</span>
+                          <span class="tech-tag">HTML</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </section>
 
-  
-
-  
-  <section id="skills" class="section">
-    <div class="container">
-      <h2>Technical Skills</h2>
-      <ul class="skills-list">
-        <li>Python, R, C</li>
-        <li>PL/SQL, MySQL, ETL, Data Warehouse</li>
-        <li>Data Mining, Machine Learning, NLP</li>
-        <li>Power BI, Tableau, Weka</li>
-        <li>HTML, CSS, UI Design, React JS, JavaScript, Node JS, JSON, JQUERY</li>
-        <li>S3, Redshift, Lambda, Glue</li>
-        <li>Jupyter Notebook, Visual studio Code, GitHub</li>
-      </ul>
-    </div>
+  <section id="contact" class="contact">
+      <div class="container">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="contact-content">
+              <div class="contact-info">
+                  <div class="contact-item">
+                      <div class="contact-icon">
+                          <i class="fas fa-envelope"></i>
+                      </div>
+                      <div class="contact-details">
+                          <h3>Email</h3>
+                          <a href="mailto:chagantinikhil22@gmail.com">chagantinikhil22@gmail.com</a>
+                      </div>
+                  </div>
+                  <div class="contact-item">
+                      <div class="contact-icon">
+                          <i class="fas fa-phone"></i>
+                      </div>
+                      <div class="contact-details">
+                          <h3>Phone</h3>
+                          <a href="tel:+14434533727">+1 443-453-3727</a>
+                          <a href="tel:+917893697145">+91 789-369-7145</a>
+                      </div>
+                  </div>
+                  <div class="contact-item">
+                      <div class="contact-icon">
+                          <i class="fas fa-map-marker-alt"></i>
+                      </div>
+                      <div class="contact-details">
+                          <h3>Location</h3>
+                          <p>Frisco, Texas, United States</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="contact-form">
+                  <form>
+                      <div class="form-group">
+                          <input type="text" placeholder="Your Name" required>
+                      </div>
+                      <div class="form-group">
+                          <input type="email" placeholder="Your Email" required>
+                      </div>
+                      <div class="form-group">
+                          <input type="text" placeholder="Subject">
+                      </div>
+                      <div class="form-group">
+                          <textarea placeholder="Your Message" rows="5" required></textarea>
+                      </div>
+                      <button type="submit" class="btn primary-btn">Send Message</button>
+                  </form>
+              </div>
+          </div>
+      </div>
   </section>
 
-  <section id="experience" class="section">
-    <div class="container">
-      <h2>Professional Experience</h2>
-      <div class="job">
-        <h3>Software Engineer</h3>
-        <p><strong>Igate Solutions</strong> | January 2025 – Present</p>
-        <ul>
-          <li>Engineered and deployed RESTful web services using Spring Boot and Spring MVC, which facilitated efficient data processing and reduced API response times by 60%, enhancing the overall performance of the application.</li>
-          <li>Optimized SQL Database by restructuring queries and indexing tables, reducing query time by 40% and enhancing overall system performance for data retrieval tasks. </li>
-        </ul>
+  <footer>
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-logo">NC</div>
+              <div class="footer-text">
+                  <p>&copy; 2025 Nikhil Chaganti. All rights reserved.</p>
+              </div>
+              <div class="footer-social">
+                  <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              </div>
+          </div>
       </div>
-      <div class="job">
-        <h3>Programmer Analyst</h3>
-        <p><strong>Cognizant Technology Solutions</strong> | February 2022 – October 2022</p>
-        <ul>
-          <li>Contributed to data security initiatives for JP Morgan Chase.</li>
-          <li>Gained proficiency in SQL, ETL, and AI & Analytics.</li>
-        </ul>
-      </div>
-      <!--
-      <div class="job">
-        <h3>Entry-Level Database Developer</h3>
-        <p><strong>Accenture</strong> | June 2020 – January 2022</p>
-        <ul>
-          <li>Optimized database performance and designed disaster recovery plans.</li>
-          <li>Implemented security policies to safeguard data.</li>
-        </ul>
-      </div> --> 
-    </div>
-  </section>
-
-  <section id="education" class="section">
-    <div class="container">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <strong>Master of Science in Information Systems</strong>  
-          - University of Maryland, Baltimore County (CGPA: 3.93/4.0)
-        </li>
-        <li>
-          <strong>Bachelor of Technology in Electronics and Communication Engineering</strong>  
-          - SRKR Engineering College, Andhra Pradesh, India (CGPA: 8.23/10.0)
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="certifications" class="section">
-    <div class="container">
-      <h2>Certifications</h2>
-      <ul>
-        <li>AWS Certified Data Engineer – Associate</li>
-        <li>Oracle Database SQL Certified – Associate</li>
-        <li>Cisco Certified Python – Programming Essentials in Python</li>
-        <li>Certified in Artificial Intelligence Fundamentals by IBM Watson</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <h3>Business Analysis on Rapido Application</h3>
-        <p>
-          Leveraged PaaS for mobile commerce, B2B marketplace, and collaborative commerce, providing scalable infrastructure for new services.
-        </p>
-      </div>
-      <div class="project-card">
-        <h3>Tweet Categorization using Sentimental Analysis</h3>
-        <p>
-          Developed a sentiment-based recommendation system to enhance user engagement on social media platforms.
-        </p>
-      </div>
-      <div class="project-card">
-        <h3>Road Accident Predicting System using Data Mining</h3>
-        <p>
-          Applied machine learning algorithms to analyze accident data, identifying high-risk areas and times.
-        </p>
-      </div>
-      <div class="project-card">
-        <h3>Exploratory Data Analysis for Amazon Prime Video</h3>
-        <p>
-          Analyzed trends in genres, release years, and ratings to understand viewer preferences.
-        </p>
-      </div>
-      <div class="project-card">
-        <h3>Online Shopping Database System</h3>
-        <p>
-          Designed and implemented a database system using SQL and PL/SQL.
-        </p>
-      </div>
-      <div class="project-card">
-        <h3>Sentiment Analysis of Flipkart Product Reviews</h3>
-        <p>
-          Classified customer reviews to analyze consumer satisfaction and preferences.
-        </p>
-      </div>
-      <div class="project-card">
-        <h3>Image to Multiple Language Text Converter</h3>
-        <p>
-          Used OCR and Deep Learning to convert images to text and provide translations in multiple languages.
-        </p>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:chagantinikhil22@gmail.com">chagantinikhil22@gmail.com</a></p>
-      <p>Phone: <a href="tel:+14434533727">(443) 453-3727</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/nikhil-chaganti-770343243" target="_blank">Nikhil Chaganti</a></p>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <p>&copy; 2024 Nikhil Chaganti. All Rights Reserved.</p>
   </footer>
+
+  <script>
+      // Navigation toggle for mobile
+      document.addEventListener('DOMContentLoaded', function() {
+          const burger = document.querySelector('.burger');
+          const nav = document.querySelector('.nav-links');
+          const navLinks = document.querySelectorAll('.nav-links li');
+          
+          burger.addEventListener('click', function() {
+              // Toggle navigation
+              nav.classList.toggle('nav-active');
+              
+              // Animate links
+              navLinks.forEach((link, index) => {
+                  if (link.style.animation) {
+                      link.style.animation = '';
+                  } else {
+                      link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                  }
+              });
+              
+              // Burger animation
+              burger.classList.toggle('toggle');
+          });
+          
+          // Smooth scrolling for anchor links
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function (e) {
+                  e.preventDefault();
+                  
+                  document.querySelector(this.getAttribute('href')).scrollIntoView({
+                      behavior: 'smooth'
+                  });
+                  
+                  // Close mobile menu if open
+                  if (nav.classList.contains('nav-active')) {
+                      nav.classList.remove('nav-active');
+                      burger.classList.remove('toggle');
+                      navLinks.forEach((link) => {
+                          link.style.animation = '';
+                      });
+                  }
+              });
+          });
+          
+          // Active navigation highlighting
+          const sections = document.querySelectorAll('section');
+          const navItems = document.querySelectorAll('.nav-links a');
+          
+          window.addEventListener('scroll', () => {
+              let current = '';
+              
+              sections.forEach(section => {
+                  const sectionTop = section.offsetTop;
+                  const sectionHeight = section.clientHeight;
+                  if (pageYOffset >= sectionTop - 200) {
+                      current = section.getAttribute('id');
+                  }
+              });
+              
+              navItems.forEach(item => {
+                  item.classList.remove('active');
+                  if (item.getAttribute('href').substring(1) === current) {
+                      item.classList.add('active');
+                  }
+              });
+          });
+      });
+  </script>
 </body>
 </html>
-
-
