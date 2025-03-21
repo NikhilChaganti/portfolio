@@ -411,16 +411,7 @@ nav {
   position: relative;
 }
 
-.timeline-date::after {
-  content: '';
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background-color: var(--primary-color);
-  border-radius: 50%;
-  right: -6px;
-  top: 5px;
-}
+
 
 .timeline-content {
   background-color: white;
