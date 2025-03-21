@@ -157,6 +157,13 @@ nav {
   font-weight: 700;
   color: var(--primary-color);
   font-family: 'Poppins', sans-serif;
+  text-decoration: none; /* Remove underline from the link */
+  display: block; /* Ensure it behaves like a block element */
+  cursor: pointer; /* Show pointer on hover */
+}
+
+.logo:hover {
+  color: var(--primary-dark); /* Optional: Change color on hover for feedback */
 }
 
 .nav-links {
@@ -244,6 +251,65 @@ nav {
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.hero-social-links {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  gap: 2rem; /* Space between LinkedIn and GitHub */
+  margin-top: 1.5rem; /* Space above the social icons */
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  transition: var(--transition);
+}
+
+.social-icon i {
+  font-size: 1.1rem;
+}
+
+.social-icon:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-3px);
+}
+
+/* Media Queries for Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .hero-social-links {
+      gap: 1.5rem; /* Reduce gap on smaller screens */
+  }
+  
+  .social-icon {
+      width: 30px;
+      height: 30px;
+  }
+  
+  .social-icon i {
+      font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-social-links {
+      gap: 1rem;
+  }
+  
+  .social-icon {
+      width: 28px;
+      height: 28px;
+  }
+  
+  .social-icon i {
+      font-size: 0.9rem;
+  }
 }
 
 /* About Section */
@@ -737,19 +803,6 @@ footer {
 .footer-text p {
   margin-bottom: 0;
   font-size: 0.9rem;
-}
-
-.footer-social {
-  display: flex;
-  gap: 0.8rem;
-}
-
-.footer-social .social-icon {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-social .social-icon:hover {
-  background-color: var(--primary-color);
 }
 
 /* Image Container */
